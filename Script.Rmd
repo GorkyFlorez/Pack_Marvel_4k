@@ -1,0 +1,177 @@
+---
+title: "Peliculas, Animes, series y extrenos exclusivo 4k "
+author: "Coleccion de Marvel en 4K"
+date: "17/12/2021"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    logo: PNG/drive.png
+    social: [ "twitter", "facebook", "whatsapp", "instagram", "telegram", "linkedin", "pinterest" ]
+    source_code: "https://github.com/"
+    theme: readable
+    # "default", "cerulean", "journal", "flatly", "darkly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+library(tm)
+library(wordcloud)
+library(sf)
+library(formattable)
+library(RColorBrewer)
+library(DT)
+library(crosstalk)
+library(leaflet)
+library(leaflet.extras)
+library(leaflet.providers)
+library(htmlwidgets)
+library(leafem)
+library(plotly)
+library(ggplot2)
+library(readxl)
+library(wordcloud)
+library(RColorBrewer)
+library(crosstalk)
+Enlaces <- read_excel("Excel/Enlaces.xlsx")
+st_Enlaces <- SharedData$new(Enlaces)
+```
+
+
+# Peliculas  {data-icon=fa-globe-americas} 
+
+Column  {data-width=200}
+-------------------------------------
+    
+### * [Avengers: Endgame 4K](https://drive.google.com/file/d/13Lmk-iNf0hSKC2WqhHnsZxNH57zTYjmJ/view?usp=sharing) 
+```{r}
+knitr::include_graphics("https://blurayperu.com/wp-content/uploads/2019/11/1-103.jpg")
+
+```
+
+### * [Capitana Marvel 4K](https://drive.google.com/drive/folders/1JYLYaCwMz5zgOJTgDTD556b1RqQIOpky?usp=sharing) 
+```{r}
+knitr::include_graphics("https://img.clasf.pe/2019/12/01/Blu-Ray-Capitana-Marvel-2d-4k-Stock-Nuevo-20191201233511.9843120015.jpg")
+
+```
+
+###  * [Soldado de invierno 4K](https://drive.google.com/drive/folders/1zIt-0AClpoQDfnbXQEJY9i-VCr23ArDA?usp=sharing) 
+```{r}
+knitr::include_graphics("https://w0.peakpx.com/wallpaper/864/132/HD-wallpaper-bucky-from-the-falcon-and-the-winter-soldier.jpg")
+
+```
+
+
+
+
+Column  {data-width=200}
+-------------------------------------
+
+### * [Spider-Man Lejos de Casa 4K](https://drive.google.com/drive/folders/1dlDZnKZqJvY1foqpk4L8KnSj2DfyxKL5?usp=sharing) 
+```{r}
+knitr::include_graphics("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spiderman-lejos-de-casa-poster-berlin-londres-1553528518.jpg")
+```
+
+
+### * [Doctor Strange 4k](https://drive.google.com/drive/folders/1U6Tv6IB7FfUEqGant69BsQSAyBzliv84?usp=sharing) 
+```{r}
+knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/91BAMbEQHKL._RI_.jpg")
+```
+
+
+### * [Spider-Man: No Way Home](https://drive.google.com/drive/folders/1_MTcjIbbPWQ9WJErvF55jFZ9YjXiU51n?usp=sharing) 
+```{r}
+knitr::include_graphics("https://www.mubis.es/media/users/2652/291486/ahora-si-primer-poster-oficial-de-spiderman-no-way-home-original.jpg")
+
+```
+
+
+Column  {data-width=750}
+-------------------------------------
+    
+### Pack de Marvel {data-height=700}
+```{r}
+knitr::include_graphics("PNG/venga.jpg")
+```
+
+
+### * [Solicitudes](tuspres@gmail.com) {data-height=700}
+```{r}
+knitr::include_graphics("PNG/Vengado.jpg")
+
+```
+
+
+Column  {data-width=250}
+-------------------------------------
+    
+### * [Thor: The Dark World 4k](https://drive.google.com/drive/folders/1NBGtdxEWuLSDlNels1LMDisNUlhsWR9O?usp=sharing) {data-width=200}
+```{r}
+knitr::include_graphics("https://www.cheapdigitalcodes.com/wp-content/uploads/2017/09/cover-thor-dark-world.jpg")
+```
+
+### * [Avengers Infinity War 4k](https://drive.google.com/drive/folders/16jKuVUS-IMBBM0f2nnh3evPXxzL8NTx2?usp=sharing) {data-width=200}
+```{r}
+knitr::include_graphics("https://m.media-amazon.com/images/I/81GfZasnt9L._SL1371_.jpg")
+```
+
+
+Column  {data-width=300}
+-------------------------------------
+    
+### Acceso y descarga del las Peliculas en 4K UHD (4K Ultra HD + Blu-Ray)
+
+El proceso de inscripción es el siguiente:
+* Efectué el pago de acuerdo al pack o pelicula indivial
+* Envíe el voucher de pago o constancia de la transferencia a: * [Correo](tuspres@gmail.com ) 
+* En un lapso máximo de 5 minutos estaremos confirmando su correcta inscripción para darle acceso por un año.
+
+Este dashbaord se desarrolló utilizando [R Studio](https://www.rstudio.com/) y los siguientes paquetes:
+
+* [RMarkdown](https://rmarkdown.rstudio.com/) para análisis reproducibles en documentos de calidad
+*  [flexdashbaord](https://rmarkdown.rstudio.com/flexdashboard/) para formatear en RMarkdown
+* [DT](https://rstudio.github.io/DT/) para tablas interactivas
+* [crosstalk](https://rstudio.github.io/crosstalk/) para widgets html interactivos en RMarkdown
+
+
+Medios de Pago o transferencia * [Cuentas](https://imagizer.imageshack.com/img923/7950/RDNfQs.png) 
+
+
+
+
+
+
+```{r}
+knitr::include_graphics("https://imagizer.imageshack.com/img923/7950/RDNfQs.png")
+```
+
+# Tabla de contenido {data-icon="fa-database"} 
+
+Column {data-width=900} 
+-------------------------------------
+
+### Concesiones de Producto Forestal Diferentes a la Madera 
+```{r}
+ 
+datatable(st_Enlaces, options = list(pageLength = 34))
+```
+
+
+Column  {data-width=200}
+-------------------------------------
+
+### Buscadores
+```{r}
+filter_select(
+  id = "Peliculas",
+  label = "Peliculas",
+  sharedData = st_Enlaces,
+  group = ~Peliculas 
+)
+
+```
+
+
+
