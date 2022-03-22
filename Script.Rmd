@@ -124,6 +124,7 @@ Column  {data-width=300}
 ### Acceso y descarga del las Peliculas en 4K UHD (4K Ultra HD + Blu-Ray)
 
 El proceso de inscripción es el siguiente:
+
 * Efectué el pago de acuerdo al pack o pelicula indivial
 * Envíe el voucher de pago o constancia de la transferencia a: * [Correo](tuspres@gmail.com ) 
 * En un lapso máximo de 5 minutos estaremos confirmando su correcta inscripción para darle acceso por un año.
@@ -138,14 +139,6 @@ Este dashbaord se desarrolló utilizando [R Studio](https://www.rstudio.com/) y 
 
 Medios de Pago o transferencia * [Cuentas](https://imagizer.imageshack.com/img923/7950/RDNfQs.png) 
 
-
-
-
-
-
-```{r}
-knitr::include_graphics("https://imagizer.imageshack.com/img923/7950/RDNfQs.png")
-```
 
 # Tabla de contenido {data-icon="fa-database"} 
 
